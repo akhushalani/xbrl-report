@@ -1,2 +1,5 @@
+import auth
+
 if __name__ == '__main__':
-    print('Hello, world')
+    print('Access token:')
+    print(auth.fetch_token())

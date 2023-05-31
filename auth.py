@@ -14,4 +14,4 @@ def fetch_token():
 
     return oauth.fetch_token(token_url=TOKEN_URL, username=secrets["USERNAME"], password=secrets["PASSWORD"],
                              client_id=secrets["CLIENT_ID"],
-                             client_secret=secrets["CLIENT_SECRET"], include_client_id=True)
+                             client_secret=secrets["CLIENT_SECRET"], platform="mac", include_client_id=True)
